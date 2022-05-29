@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" text="text/css" href="bb bbbbbbb/css/bootstrap.min.css"/>
+<link rel="stylesheet" text="text/css" href="bb bbbbbbb/css/font-awesome.min.css"/>
+<link rel="stylesheet" text="text/css" href="bb bbbbbbb/fonts/flaticon.css"/>
+<link rel="stylesheet" text="text/css" href="bb bbbbbbb/fonts/fonts2/flaticon.css"/>
+<style>
+.fixedButton{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+}
+.roundedFixedBtn{
+    height: 60px;
+    line-height: 80px;
+    width: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    
+}
+
+
+li a {
+   
+    padding: 8px;
+}
+.sole{color: blue;font-size: 15px;font-weight: bold;padding: 15px;   
+}
+.fa.fa{padding: 20px;}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid green;
+  border-radius: 510%;
+  border-top: 16px solid red;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  
+
+<a class="fixedButton" href="twitter.html">
+<div class="roundedFixedBtn">
+<i class="fa fa-user"></i>
+</div>
+</a>
+<div class="container-fluid" >
+<div class="row">
+         
+<div class="col-lg-6" style="background-color:#ffff66;">
+
+<img src="IMG/image.png" height="700px"/>
+
+</div>
+
+<div class="col-lg-6" style="background-color: white;height: 700px;">
+<img src="IMG/image.png" style="width: 100px;height: 90px; margin-top: 70px;margin-left: 100px;"/>
+<h1 style="font-size:60px;font-family: cambria;font-weight:bold;margin-left:25px;">See what is happening in the world right now</h1><br />
+<p style="font-size: 30px;font-family: cambria;font-weight: bold;color: blue;margin-left: 25px;">Join twitter today.</p><br />
+
+<p style="font-size: 30px;font-family: cambria;border-radius: 50px;color: white;background-color: #004080;text-align: center;cursor: pointer;"><a href="signing.html" style="text-decoration: none;cursor: pointer;font-weight: bold;color: white;">Sign up</p><br />
+<p style="font-size: 30px;font-family: cambria;border-radius: 50px;color: blue;border: 5px solid #008CBA;text-align: center;cursor: pointer;"><a href="signing.html" style="text-decoration: none;cursor: pointer;font-weight: bold;">Log in</a></p><br />
+
+<button style="border: 5px solid #008CBA;border-radius: 50px;width: 765px;padding: 2px;background-color: #ffff66;"><a href="signing.html" style="text-decoration: none;font-family: cambria;text-align:center;color: blue;font-size: 30px;font-weight: bold;">Create an account</a></button>
+</div>
+</div>
+</div>
+
+<br />
+
+<div class="sole"> 
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Help center</a></li>
+  <li><a href="contact.asp">Terms of service</a></li>
+  <li><a href="about.asp">Privacy policy</a></li>
+   <li><a href="about.asp">Cookie policy</a></li>
+    <li><a href="about.asp">Privacy policy</a></li>
+     <li><a href="about.asp">Adds  info</a></li>
+      <li><a href="about.asp">Blog</a></li>
+       <li><a href="about.asp">Status </a></li>
+        <li><a href="about.asp">Careers</a></li>
+         <li><a href="about.asp">Brand resources</a></li>
+          <li><a href="about.asp">Advertising </a></li>
+           <li><a href="about.asp"> Marketing </a></li>
+            <li><a href="about.asp">Twitter for business</a></li>
+             <li><a href="about.asp">Developers</a></li>
+             <li><a href="about.asp">Directory</a></li>
+             <li><a href="about.asp">Settings</a></li>
+</ul>
+</div>
+<p style="text-align: center;color: black;font-size:19px;font-family:cambria;font-weight: bold;">&copy; 2022 TWITTER,INC. </p>
+<br />
+<i class="fa fa-user icon" style="position: absolute;top: 230px;left: 100px;font-size: 35px;font-weight: bold;color:#804000;">&nbsp;&nbsp;&nbsp;&nbsp;Follow your interest.</i><br />
+<i class="fa fa-user icon" style="position: absolute;top: 280px;left: 100px;font-size: 35px;font-weight: bold;color:#804000;"> &nbsp;&nbsp;&nbsp;&nbsp;Join the conversation.</i><br />
+<i class="fa fa-user icon" style="position: absolute;top: 330px;left: 100px;font-size: 35px;font-weight: bold;color:#804000;"> &nbsp;&nbsp;&nbsp;&nbsp;Hear what people are talking about you.</i>
+</div>
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+
+
+
+
+</html>
